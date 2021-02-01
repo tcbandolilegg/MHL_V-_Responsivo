@@ -1,0 +1,169 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-top: 0;
+}
+
+nav {
+  align-items: center;
+  align-content: space-around;
+  background-color: #2d46b6;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  justify-content: space-around;
+  margin-bottom: 5px;
+  /* position: fixed; */
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+
+nav button {
+  background-color: white;
+  width: auto;
+  border-radius: 5px;
+  height: 35px;
+}
+
+nav input {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  height: 35px;
+}
+
+nav img {
+  height: 45px;
+}
+
+nav a:hover {
+  color: #fffb03;
+  justify-content: space-between;
+}
+
+.imageHome img {
+  margin-top: 15px;
+  height: 500px;
+}
+.hamburger span {
+  width: 100%;
+  height: 8px;
+  border-radius: 10px;
+  background-color: #fffb03;
+}
+
+nav div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  width: 50px;
+}
+
+.barraNav {
+  margin-top: 0px;
+}
+
+.menuHamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menuHamburger {
+    display: flex;
+  }
+
+  nav a,
+  button {
+    display: none;
+  }
+
+  nav {
+    margin: 0;
+    justify-content: flex-end;
+    position: absolute;
+  }
+}
+
+.principal {
+  align-items: center;
+  margin-top: 70px;
+  display: flex;
+  border-color: solid 5px green;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#nomeMarca {
+  font-weight: 1000;
+  font-size: 70px;
+  font-style: italic;
+}
+
+.home {
+  border-color: red solid 20px;
+  margin-top: 30px;
+}
+
+.slogan h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.textHome {
+  margin-top: 25px;
+  margin-bottom: 100px;
+  font-size: 30px;
+  font-weight: 100;
+  max-width: 500px;
+  padding: 5px;
+}
+.itensHome {
+  display: flex;
+  flex-direction: row;
+}
+
+.itensHome img {
+  margin-top: 25px;
+  height: 120px;
+  width: 120px;
+}
+.itensTextHome {
+  align-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  font-size: 30px;
+  font-weight: 100;
+  max-width: 700px;
+}
+
+.botaoAzul {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #2d46b6;
+  color: #2d46b6;
+  height: auto;
+  min-width: 150px;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.botaoAzul:hover {
+  background-color: #2d46b6;
+  color: white;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
