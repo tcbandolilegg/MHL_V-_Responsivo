@@ -65,6 +65,10 @@ nav div {
   width: 50px;
 }
 
+.barraNav {
+  margin-top: 0px;
+}
+
 .menuHamburger {
   display: none;
 }
@@ -95,6 +99,12 @@ nav div {
   justify-content: space-around;
 }
 
+#nomeMarca {
+  font-weight: 1000;
+  font-size: 70px;
+  font-style: italic;
+}
+
 .home {
   border-color: red solid 20px;
   margin-top: 30px;
@@ -111,6 +121,13 @@ nav div {
   font-size: 25px;
   font-weight: 100;
   max-width: 400px;
+}
+.itensTextHome {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-weight: 100;
+  max-width: 700px;
 }
 
 .botaoAzul {
