@@ -314,6 +314,10 @@ nav div {
   height: 40px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .redesSociaisRodape a {
   text-decoration: none;
   align-content: center;
