@@ -51,6 +51,14 @@ nav a:hover {
   margin-top: 15px;
   height: 500px;
 }
+
+.imageHome p {
+  margin-top: 15px;
+  max-width: 500px;
+  font-size: x-large;
+  color: #2d46b6;
+}
+
 .hamburger span {
   width: 100%;
   height: 8px;
