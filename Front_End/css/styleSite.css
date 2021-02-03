@@ -9,7 +9,7 @@ body {
 nav {
   align-items: center;
   align-content: space-around;
-  background-color: #2d46b6;
+  background-color: var(--azul_principal);
   display: flex;
   flex-direction: row;
   height: 70px;
