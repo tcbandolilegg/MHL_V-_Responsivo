@@ -15,7 +15,8 @@ nav {
   height: 70px;
   justify-content: space-around;
   margin-bottom: 5px;
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
   width: 100%;
 }
 
@@ -318,6 +319,36 @@ nav div {
 }
 .logosParceiros div {
   width: 300px;
+}
+.funcionalidades {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.funcionalidades img {
+  margin-top: 40px;
+}
+
+.funcionalidades p {
+  justify-content: center;
+  align-self: center;
+  padding: 15px;
+}
+
+.funcionalidades div {
+  width: 280px;
+  height: 280px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: #2d46b6 solid 5px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 
 .redesSociais img {
