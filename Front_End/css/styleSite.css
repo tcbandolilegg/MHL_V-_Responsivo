@@ -116,6 +116,23 @@ nav div {
   justify-content: space-around;
 }
 
+.principal div {
+  max-width: 800px;
+}
+.topDiv {
+  text-align: center;
+}
+
+.topDiv p {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 100;
+  /* max-width: 600px; */
+  padding: 5px;
+}
+
 .cadastro {
   align-items: center;
   margin-top: 70px;
@@ -256,15 +273,30 @@ nav div {
   font-weight: bolder;
   color: #2d46b6;
 }
-
+.topHome h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  color: #2d46b6;
+}
+.pTop {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  max-width: 600px;
+  padding: 5px;
+}
 .textHome {
   margin-top: 25px;
   /* margin-bottom: 100px; */
+  text-align: justify;
+  text-indent: 50px;
   font-size: 30px;
   font-weight: 100;
   max-width: 600px;
   padding: 5px;
 }
+
 .itensHome {
   display: flex;
   flex-direction: row;
@@ -300,6 +332,7 @@ nav div {
   margin-top: 25px;
   margin-left: 20px;
   padding: 10px;
+  font-size: x-large;
 }
 
 .botaoAzul:hover {
@@ -319,6 +352,14 @@ nav div {
 }
 .logosParceiros div {
   width: 300px;
+}
+
+.cadastroNovosParceiros {
+  display: flex;
+  justify-content: space-around;
+  font-size: xx-large;
+  /* topo | direita | inferior | esquerda */
+  margin: 20px auto 40px auto;
 }
 .funcionalidades {
   display: flex;
